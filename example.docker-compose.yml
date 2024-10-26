@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    image: "antonchristensen/portfolio"
+    ports:
+      - "${WEB_PORTFOLIO_PORT:-8002}:80"
+    restart: always

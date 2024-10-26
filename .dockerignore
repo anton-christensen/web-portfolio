@@ -1,0 +1,9 @@
+dist/
+dist-newstyle/
+.git/
+.*
+.dockerignore
+Dockerfile
+vendor/
+.sass-cache/
+
