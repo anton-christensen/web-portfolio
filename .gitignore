@@ -1,0 +1,7 @@
+dist/
+dist-newstyle/
+.git/
+.vscode/
+vendor/
+.sass-cache/
+
