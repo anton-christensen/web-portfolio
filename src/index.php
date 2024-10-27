@@ -1,4 +1,8 @@
 <?
+require('vendor/autoload.php');
+require_once('lang.php');
+
+$notices = array();
 
 if($_SERVER['REQUEST_URI'] == "/") {
     if(!isset($_COOKIE['last_lang_used'])) {
@@ -16,23 +20,15 @@ else if(0 == strpos($_SERVER['REQUEST_URI'], "/en")) { $lang = 'en'; }
 
 setcookie('last_lang_used', $lang, time() + (86400 * 30), "/");
 
-
 if(isset($_GET) && isset($_GET['path'])) {
-    if($_GET['path'] == "/nikka") {require('nikka.php'); die(); } 
     if($_GET['path'] == "/calendar") {require('calendar.php'); die(); } 
     if($_GET['path'] == "/cv") {header("Location: /" . $lang . "/cv"); die(); } 
     if($_GET['path'] == "/en/cv") {require('cv.en.php'); die(); } 
     if($_GET['path'] == "/da/cv") {require('cv.da.php'); die(); } 
     if(!in_array($_GET['path'], ['', '/', '/da', '/en'])) {require('404.php'); die(); } 
 }
+
 session_start();
-?>
-<? require('vendor/autoload.php') ?>
-<? $notices = array() ?>
-<?
-require_once('lang.php');
-
-
 
 function generateRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -44,7 +40,6 @@ function generateRandomString($length = 10) {
     return $randomString;
 }
 ?> 
-<!-- <?= $_GET['path'] ?> -->
 <? require('header.php') ?>
 <div class="wrapper">
     <h1 class="logo noselect">AntonChristensen.net</h1>
