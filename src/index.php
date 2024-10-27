@@ -1,5 +1,4 @@
 <?
-require('vendor/autoload.php');
 require_once('lang.php');
 
 $notices = array();

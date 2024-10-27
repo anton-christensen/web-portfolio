@@ -10,9 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: php-actions/composer@v6
-        with:
-          working_dir: "src"
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3    # ... then your own project steps ...
