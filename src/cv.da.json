@@ -12,7 +12,7 @@
         {
           "place": "Aalborg Universitet",
           "title": "PhD Stipend",
-          "time": "Feb 2021 - Mar 2022",
+          "time": "Feb 2021 - Feb 2022",
           "description": "Påbegyndt PhD om at sikre cyber-physical systems, specielt bootloadere, mod side-channel angreb vha. formelle metoder som statisk analyse og model checking."
         },
         {
@@ -92,5 +92,3 @@
     }
   ]
 }
-
-

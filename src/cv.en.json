@@ -6,19 +6,14 @@
           {
             "place": "Trifork Aarhus",
             "title": "Software developer",
-            "time": "Mar 2022 - ",
-            "description": "Development of platforms for the healthcare industry"
+            "time": "Apr 2022 - ",
+            "description": "Development of the Compassana healthcare platform for the swizz healthcare system.<br>Development of DSL for embedded systems at LEGO."
           },
           {
             "place": "Aalborg University",
-            "title": "PhD Stipend",
-            "time": "Feb 2021 - Mar 2022",
+            "title": "Research assistant position, followed by PhD Stipend",
+            "time": "Jul 2020 - Feb 2021 - Mar 2022",
             "description": "Begun a PhD on the subject of securing cyber-physical systems, especially bootloaders, against side-channel attacks by way of formal methods such as static analysis and model checking."
-          },
-          {
-            "place": "Aalborg University",
-            "title": "Research assistant",
-            "time": "Jul 2020 - Jan 2021"
           },
           {
             "place": "Advanced Electronics Repair",
@@ -47,7 +42,7 @@
             "place": "Aalborg University",
             "title": "MSc Eng Software",
             "time": "2015 - 2020",
-            "description": "Aalborg University is well known for the quality of their engineering programs and project based learning approach to education. A degree from AAU means I'm well prepared for work in teams of all sizes."
+            "description": "Aalborg University is well known for the quality of their engineering programs and project based learning approach to education."
           }
         ]
       },
@@ -58,25 +53,31 @@
             "place": "Aalborg University",
             "title": "Security analysis notebook - analysis.achri.dk",
             "time": "2020 - 2021",
-            "description": "Jupyter notebook-like system for static analysis courses at Aalborg University."
+            "description": "Jupyter notebook-like system for static analysis courses at Aalborg University. Includes a few DSLs"
           },
           {
             "place": "Aalborg University",
-            "title": "Digital trash bin - help.aau.dk",
+            "title": "Digital trash bin",
             "time": "2019",
-            "description": "Queue system for requesting assistance during exercise sessions at Aalborg University."
+            "description": "Reactive web-app for requesting assistance during exercise sessions at Aalborg University."
           },
           {
             "place": "Skills Danmark",
             "title": "Timing system",
             "time": "2016 - 2020",
-            "description": "Continued support and development of a timing system for relay-race, style competition."
+            "description": "Continued support and development of a timing system for relay-race, gameshow- style competition."
           }
         ]
       },
       {
         "title": "Course",
         "entries": [
+          {
+            "place": "ScrumAlliance",
+            "title": "Certified ScrumMaster",
+            "time": "2023",
+            "description": ""
+          },
           {
             "place": "KFUM Scouts",
             "title": "Roland 1, 2 and Diamant",
@@ -87,6 +88,3 @@
       }
     ]
   }
-  
-  
-  
