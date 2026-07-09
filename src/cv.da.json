@@ -66,16 +66,18 @@
           "description": "Jupyter notebook-like system til statisk analyse undervisning."
         },
         {
-          "place": "Aalborg universitet",
-          "title": "Digital skraldespand",
-          "time": "2019",
-          "description": "Reaktiv web-app til at organisere opgaveregning på AAU."
-        },
-        {
           "place": "Skills Danmark",
           "title": "Tidtagning",
           "time": "2016 - 2020",
           "description": "Support og udvikling af et tidtagningssystem til Skills Stafetten."
+        }
+      ],
+      "_old_entries": [
+        {
+          "place": "Aalborg universitet",
+          "title": "Digital skraldespand",
+          "time": "2019",
+          "description": "Reaktiv web-app til at organisere opgaveregning på AAU."
         }
       ]
     },

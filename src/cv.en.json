@@ -62,16 +62,18 @@
             "description": "Jupyter notebook-like system for static analysis courses at Aalborg University. Includes a few DSLs"
           },
           {
-            "place": "Aalborg University",
-            "title": "Digital trash bin",
-            "time": "2019",
-            "description": "Reactive web-app for requesting assistance during exercise sessions at Aalborg University."
-          },
-          {
             "place": "Skills Danmark",
             "title": "Timing system",
             "time": "2016 - 2020",
             "description": "Continued support and development of a timing system for relay-race, gameshow- style competition."
+          }
+        ],
+        "_old_entries": [
+          {
+            "place": "Aalborg University",
+            "title": "Digital trash bin",
+            "time": "2019",
+            "description": "Reactive web-app for requesting assistance during exercise sessions at Aalborg University."
           }
         ]
       },
