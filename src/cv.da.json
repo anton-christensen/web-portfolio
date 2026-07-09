@@ -4,9 +4,15 @@
       "title": "Erfaring",
       "entries": [
         {
+          "place": "The LEGO Group",
+          "title": "Senior Staff Software Engineer",
+          "time": "Feb 2025 - ",
+          "description": "Faglig ekspert og udvikler af domænespecifikke sprog (DSL), compiler, fortolker og virtuel maskine til at definere legeoplevelser med LEGO Smart Play."
+        },
+        {
           "place": "Trifork Aarhus",
           "title": "Software udvikler",
-          "time": "Apr 2022 - ",
+          "time": "Apr 2022 - Feb 2025",
           "description": "Udvikling af sunhedsplatformen Compassana (min-læge til det schweiziske sundhedsvæsen).<br>Udvikling af DSL og indlejrede systemer for LEGO."
         },
         {

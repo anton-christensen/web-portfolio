@@ -4,9 +4,15 @@
         "title": "Experience",
         "entries": [
           {
+            "place": "The LEGO Group",
+            "title": "Senior Staff Software Engineer",
+            "time": "Feb 2025 - ",
+            "description": "Subject matter expert and developer of the domain specific language (DSL), compiler, interpreter and virtual machine, for defining playful experiences of LEGO Smart Play."
+          },
+          {
             "place": "Trifork Aarhus",
             "title": "Software developer",
-            "time": "Apr 2022 - ",
+            "time": "Apr 2022 - Feb 2025",
             "description": "Development of the Compassana healthcare platform for the swizz healthcare system.<br>Development of DSL for embedded systems at LEGO."
           },
           {

@@ -31,7 +31,7 @@ $translationTable['meta.title'][$lang] = "Curriculum Vitae - Anton Christensen"
     <h2 class="ib">Software Engineer</h2>
     <br>
     <br>
-    <div>Software developer with a lot of experience in:
+    <div>Software developer with experience in:
       <ul>
         <li>Modern web services</li>
         <li>Embedded systems</li>
