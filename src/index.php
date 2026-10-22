@@ -1,4 +1,4 @@
-<?
+<?php
 require_once('lang.php');
 
 $notices = array();
@@ -39,7 +39,7 @@ function generateRandomString($length = 10) {
     return $randomString;
 }
 ?> 
-<? require('header.php') ?>
+<?php require('header.php') ?>
 <div class="wrapper">
     <h1 class="logo noselect">AntonChristensen.net</h1>
     <div class="polyring">
@@ -52,25 +52,25 @@ function generateRandomString($length = 10) {
     <div class="pageContent experienceContent">
         <div class="contentwrapper">
             <div class="topshadow"></div>
-            <? require('pages/experience.php') ?>
+            <?php require('pages/experience.php') ?>
         </div>
     </div>
     <div class="pageContent uniContent">
         <div class="contentwrapper">
             <div class="topshadow"></div>
-            <? require('pages/uni.php') ?>
+            <?php require('pages/uni.php') ?>
         </div>
     </div>
     <div class="pageContent projectsContent">
         <div class="contentwrapper">
             <div class="topshadow"></div>
-            <? require('pages/projects.php') ?>
+            <?php require('pages/projects.php') ?>
         </div>
     </div>
     <div class="pageContent contactContent">
         <div class="contentwrapper">
-            <? require('pages/contact.php') ?>
+            <?php require('pages/contact.php') ?>
         </div>
     </div>
 </div>
-<? require('footer.php') ?>
+<?php require('footer.php') ?>

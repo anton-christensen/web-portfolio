@@ -1,4 +1,4 @@
-<?
+<?php
 $acceptLang = ['da', 'en']; 
 $translationTable = [
 	"meta.title" => [

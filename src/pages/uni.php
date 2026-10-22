@@ -1,7 +1,7 @@
 <div class="page uni">
     <h2><?= $translationTable['aau.header'][$lang] ?></h2>
     <div class="row">
-        <? for($i = 10; $i > 0; $i--): ?>
+        <?php for($i = 10; $i > 0; $i--): ?>
         <div class="summaryItem">
             <div class="fl">
                 <a target="_blank" class="noline" href="/static/p<?= $i ?>.pdf">
@@ -22,6 +22,6 @@
             
             </p>
         </div>
-        <? endfor; ?>
+        <?php endfor; ?>
     </div>
 </div>

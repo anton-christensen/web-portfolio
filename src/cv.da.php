@@ -1,5 +1,5 @@
-<? session_start(); ?>
-<?
+<?php session_start(); ?>
+<?php
 // require_once('lang.php');
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
@@ -20,7 +20,7 @@ $data = json_decode($cv_json, false);
 $lang = 'da';
 $translationTable['meta.title'][$lang] = "Curriculum Vitae - Anton Christensen"
 ?> 
-<? require('header.php') ?>
+<?php require('header.php') ?>
 <div class="cv-wrapper">
   <div class="left-panel">
     <div class="top">
@@ -53,23 +53,23 @@ $translationTable['meta.title'][$lang] = "Curriculum Vitae - Anton Christensen"
 
   </div>
   <div class="right-panel">
-    <? foreach($data->sections as $section): ?>
+    <?php foreach($data->sections as $section): ?>
     <div class="section">
       <h2 class="header"><span class="icon"></span><?= $section->title ?></h2>
       <table>
-        <? foreach($section->entries as $entry): ?>
+        <?php foreach($section->entries as $entry): ?>
         <tr class="entry">
           <td>
             <h3 class="place"><?= $entry->place ?></h3>
             <h3 class="title"><?= $entry->title ?></h3>
             <div class="time text-faded"><?= $entry->time ?></div>
-            <? if(isset($entry->description)): ?><div class="description"><?= $entry->description ?></div><? endif ?>
+            <?php if(isset($entry->description)): ?><div class="description"><?= $entry->description ?></div><?php endif ?>
           </td>
         </tr>
-        <? endforeach ?>
+        <?php endforeach ?>
       </table>
     </div>
-    <? endforeach ?>
+    <?php endforeach ?>
   </div>
 </body>
 </html>

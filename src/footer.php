@@ -1,7 +1,7 @@
         <div class="lang">
             <a href="<?= $translationTable['footer.lang.other.link'][$lang] ?>"><?= $translationTable['footer.lang.other.full'][$lang] ?></a>
         </div>
-        <? 
+        <?php
         	if(!empty($notices)) {
         		echo '<div id="noticesBox">';
         		foreach ($notices as $notice) {
